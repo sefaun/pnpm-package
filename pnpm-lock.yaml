@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@main/sefa':
+        specifier: 1.0.0
+        version: link:packages/sefa
+      '@main/test':
+        specifier: 1.0.0
+        version: link:packages/test
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
